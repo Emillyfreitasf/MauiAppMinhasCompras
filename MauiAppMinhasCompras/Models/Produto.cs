@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SQLite;
+﻿using SQLite;
 
 namespace MauiAppMinhasCompras.Models
 {
@@ -14,12 +9,5 @@ namespace MauiAppMinhasCompras.Models
         public string Descricao { get; set; }
         public double Quantidade { get; set; }
         public double Preco { get; set; }
-    }
-}
-
-namespace MauiAppMinhasCompras.Models
-{
-    internal class Produto
-    {
     }
 }

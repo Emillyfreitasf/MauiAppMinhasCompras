@@ -17,5 +17,9 @@
 
         <Label Text="Preço Unitário:" />
         <Entry x:Name="txt_preco" Keyboard="Numeric" />
+        
+        <Label Text="Categoria" />
+        <Entry x:Name="txt_categoria" Placeholder="Categoria (Maquiagem, Esmaltaria, Perfume)" />
+        
     </VerticalStackLayout>
 </ContentPage>
